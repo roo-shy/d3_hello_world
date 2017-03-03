@@ -1,0 +1,13 @@
+{
+  "name": "d3-custom-example",
+  "version": "0.0.1",
+  "scripts": {
+    "prepublish": "rollup -c && uglifyjs d3.js -c -m -o d3.min.js"
+  },
+  "devDependencies": {
+    "d3-selection": "1",
+    "rollup": "0.36",
+    "rollup-plugin-node-resolve": "2",
+    "uglify-js": "2"
+  }
+}
